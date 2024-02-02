@@ -1,0 +1,41 @@
+html {
+    font-size: 20px;
+    font-family: 'Noto Sans SC', sans-serif;
+    background-color: #56a5e2;
+    background-image: url("../images/background.jpg");
+}
+
+body {
+    background-color: #faf2e6;
+    font: 1em/150% Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 33em;
+}
+
+@media (min-width: 70em) {
+    body {
+        font-size: 130%;
+    }
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+ul {
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
